@@ -16,7 +16,6 @@ export const test = base.extend<MyFixtures>({
   loginPage: async ({ page }, use) => {
     // Set up the fixture.
     const loginPage = new LoginPage(page);
-    // await loginPage.loginWith();
 
     // Use the fixture value in the test.
     await use(loginPage);
@@ -32,7 +31,6 @@ export const test = base.extend<MyFixtures>({
   landingPage: async ({ page }, use) => {
     // Set up the fixture.
     const landingPage = new LandingPage(page);
-    // await landingPage.openLoginForm();
 
     // Use the fixture value in the test.
     await use(landingPage);

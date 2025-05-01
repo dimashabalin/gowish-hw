@@ -17,7 +17,7 @@ test("should load the homepage and display the correct content", async ({
   const header = page.locator("h1");
   await expect(header).toHaveText("Alle dine ønsker samlet ét sted");
 
-  // Check Screenshot
+  // Check page screenshot
   await expect(page).toHaveScreenshot();
 });
 

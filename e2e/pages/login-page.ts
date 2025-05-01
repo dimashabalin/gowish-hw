@@ -26,10 +26,6 @@ export class LoginPage {
       .nth(2);
   }
 
-  // async goto() {
-  //   await this.page.goto("https://demo.playwright.dev/todomvc/");
-  // }
-
   async loginWith() {
     dotenv.config();
     const username = process.env.LOGIN || "";
