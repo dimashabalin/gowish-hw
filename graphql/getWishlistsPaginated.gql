@@ -1,0 +1,9 @@
+query getWishlistsPaginated($input: PaginationInput, $kinds: [WishlistKind!]) {
+  wishlists(input: $input, kinds: $kinds) {
+    totalCount
+    data {
+      id
+      title
+    }
+  }
+}

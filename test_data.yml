@@ -1,0 +1,3 @@
+wishListTitle: "myNewWishList"
+newWishUrl: "https://amzn.eu/d/cWfnfy2"
+apiBaseUrl: "https://api.gowish.com/graphql/"
